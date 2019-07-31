@@ -11,13 +11,21 @@
 }
 
 #currentTime {
-  font-size: 50px;
-  text-align: center;
-  font-family: 'Hack';
-  font-weight: 300;
-  color: #d8dee9;
-  margin: auto auto;
+    font-size: 45px;
+    text-align: center;
+    font-family: 'Hack';
+    font-weight: 300;
+    color: #d8dee9;
 }
+
+#date {
+    text-align: center;
+    font-size: 45px;
+    color: #d8dee9;
+    letter-spacing: 1.5px;
+    font-weight: 300;
+    font-family: 'Hack';
+  }
 
 html,
 body {
@@ -66,33 +74,13 @@ body.nojs #top-header {
     flex-flow: row wrap;
 }
 
-#analog-clock {
-    flex: 1 1 auto;
-}
-
-#analog-clock-canvas {
-    display: block;
-    width: 118px;
-    height: 118px;
-    margin: 0 auto;
-}
-
-#digital-clock {
-    flex: 1 1 auto;
-}
-
-#clock {
+#memes {
     text-align: center;
-    font-size: 4rem;
-}
-
-#date {
-    text-align: center;
-    font-size: 2.5rem;
+    font-size: 45px;
 }
 
 header {
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     width: 100%;
 }
 
@@ -144,7 +132,7 @@ main {
     flex-flow: row wrap;
 }
 
-header.sticky + main {
+header.sticky+main {
     padding: 68px 0 10px 0;
 }
 

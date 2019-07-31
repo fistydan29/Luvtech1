@@ -2,19 +2,56 @@
 <html>
 
 <head>
-
+    <link rel="shortcut icon" type="image/png" href="favicon.png">
     <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/hack-font@3.3.0/build/web/hack.css'>
     <link rel="stylesheet" href="style.css" />
-    <meta name="viewport" content="width=device-width,initial-width=1" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>There´s no place like ~/</title>
 </head>
 
 <body class="nojs">
     <div id="top-header">
-        <div id="digital-clock">
+        <div id="memes">
+            <script type="text/javascript">
+                var phrases = [
+                    'Powered By Dark Blockchain™',
+                    'On The Outside I´m "$USER", But On The Inside I´m /dev/null 😔😢😔',
+                    'Welcome To My Crybbb 😎😎😎',
+                    'ǝʌᴉ˥ o┴ spuoɔǝS ǝɹǝW ǝʌɐH noλ',
+                    'Don´t Dog The Boys - Ghandi',
+                    'There´s No Place Like ~/',
+                    'Follow Me On Twitter @UpperCenter',
+                    'Ping 1.1.1.1 | lolcat',
+                    'I Put The "Sigh" In Cyber',
+                    'How To: Piss Off Every Designer Ever - www.userinyerface.com',
+                    '"Technology Is Not A Panacea"',
+                    '"Eternal Vigilance Is The Price Of Security"',
+                    'btw i use Arch',
+                    'POG',
+                    'KYS Before You Snort That Ajax, Skid',
+                    'Buy My Bath Water, Now Only £299.99!',
+                    '/weather clear',
+                    '"Bebian Is The Most Secure OS" - Aristotle',
+                    'msfconsole',
+                    'Give Me My Second Monitor Back, Cowards',
+                    'YEEEEEET',
+                    'iFunny.co 😂😂 ',
+                    'YOU´RE Breathtaking!',
+                    'If You Don´t Play The Craft, You Don´t Get The Shaft™',
+                    'Life Sucks, But It Doesn´t Swallow'
+                ];
+
+                var scripts = document.getElementsByTagName('script');
+                var meme = scripts[scripts.length - 1];
+                meme.parentNode.replaceChild(document.createTextNode(phrases[Math.floor(Math.random() * phrases
+                        .length)]),
+                    meme);
+            </script>
+            <br>
             <div id="currentTime"></div>
-            <div id="date"></div>
+            <div id="date">
+            <p class="date"><span id="d"></span> <span id="m"></span> <span id="y"></span></p>
+            </div>
         </div>
     </div>
 
@@ -60,7 +97,7 @@
 
         <section>
             <div class="shadow-box nav-wrapper">
-                <h1>Information</h1>
+                <h1>Information & Wikis</h1>
                 <nav>
                     <a href="https://www.coinlib.io">
                         <img src="Favicons/coinlib.png" alt="Coinlib">
@@ -92,7 +129,7 @@
 
         <section>
             <div class="shadow-box nav-wrapper">
-                <h1>University</h1>
+                <h1>Communication</h1>
                 <nav>
                     <a href="https://web.telegram.org">
                         <img src="https://web.telegram.org/favicon.ico" alt="Telegram">
