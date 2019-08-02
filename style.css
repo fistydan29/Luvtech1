@@ -12,13 +12,13 @@
     text-align: center;
     font-family: 'Hack';
     font-weight: 300;
-    color: #d8dee9;
+    color: var(--fgdark);
 }
 
 #date {
     text-align: center;
     font-size: 45px;
-    color: #d8dee9;
+    color: var(--fgdark);
     letter-spacing: 1.5px;
     font-weight: 300;
     font-family: 'Hack';
