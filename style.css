@@ -8,6 +8,13 @@
     --accent: #5e81ac;
 }
 
+.background {
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: -1;
+}
+
 #currentTime {
     font-size: 45px;
     text-align: center;
@@ -29,6 +36,7 @@ html,
 body {
     width: 100%;
     height: 100%;
+    background: rgb(21, 16, 25);
     font-family: "Hack", monospace;
     height: 100%;
     overflow: hidden;
@@ -45,12 +53,8 @@ body {
 body {
     margin: 0 auto;
     max-width: 1200px;
-
-    background: var(--bgdark);
     color: var(--fgdark);
-
     font-family: 'Hack', 'Hack';
-
     user-select: none;
     -moz-user-select: none;
 }
