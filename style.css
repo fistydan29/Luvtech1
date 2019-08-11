@@ -186,6 +186,7 @@ main h1 {
 
 main nav {
     padding: 5px;
+    background: var(--bgdark)
 }
 
 main nav a {
