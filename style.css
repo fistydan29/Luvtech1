@@ -8,37 +8,10 @@
     --accent: #5D78FF;
 }
 
-.background {
-  position: absolute;
-  left: 0;
-  right: 0;
-  z-index: -1;
-}
-
-#currentTime {
-    font-size: 45px;
-    text-align: center;
-    font-family: 'Hack';
-    font-weight: 300;
-    color: var(--fgdark);
-}
-
-#date {
-    text-align: center;
-    font-size: 45px;
-    color: var(--fgdark);
-    letter-spacing: 1.5px;
-    font-weight: 300;
-    font-family: 'Hack';
-}
-
-html,
-body {
+html, body {
     width: 100%;
     height: 100%;
-    background: #0F111D;
     font-family: "Hack", monospace;
-    height: 100%;
     overflow: hidden;
     margin: 0;
     padding: 0;
@@ -59,12 +32,33 @@ body {
     -moz-user-select: none;
 }
 
-.shadow-box {
-    box-shadow: 5px 5px 10px 5px #101010;
+.particles {
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  background: #0F111D;
 }
 
-body.nojs #top-header {
-    min-height: 158px;
+#currentTime {
+    font-size: 45px;
+    text-align: center;
+    font-family: 'Hack';
+    font-weight: 300;
+    color: var(--fgdark);
+}
+
+#date {
+    text-align: center;
+    font-size: 45px;
+    color: var(--fgdark);
+    letter-spacing: 1.5px;
+    font-weight: 300;
+    font-family: 'Hack';
+}
+
+.shadow-box {
+    box-shadow: 5px 5px 10px 5px #101010;
 }
 
 #top-header {

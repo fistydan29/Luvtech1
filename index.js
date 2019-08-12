@@ -90,7 +90,8 @@ window.onload = function () {
 }());
 
 var particles = Particles.init({
-	selector: '.background',
-  color: ['#DA0463', '#404B69', '#DBEDF3'],
-  connectParticles: true
+	selector: '.particles',
+  color: ['#59CBE8', '#00873C', '#AB20FD'],
+  connectParticles: true,
+  maxParticles: 150,
 });
