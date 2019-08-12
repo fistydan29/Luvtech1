@@ -122,7 +122,7 @@ header.sticky form input[type="text"]:focus {
 
 
 main {
-    overflow-y: scroll;
+    overflow-y: auto;
     max-height: 425px;
     display: flex;
     flex-flow: row wrap;

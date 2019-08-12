@@ -93,5 +93,5 @@ var particles = Particles.init({
 	selector: '.particles',
   color: ['#59CBE8', '#00873C', '#AB20FD'],
   connectParticles: true,
-  maxParticles: 150,
+  maxParticles: 125,
 });
