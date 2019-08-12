@@ -73,7 +73,7 @@ window.onload = function () {
         }
 
         d.innerHTML = dayOfWeek;
-        m.innerHTML = day + " " + "of" + " " + month;
+        m.innerHTML = day + " " + "Of" + " " + month;
         y.innerHTML = year;
 
     }

@@ -5,7 +5,7 @@
     --bglight: #434c5e;
     --fglight: #eceff4;
     --bgtitle: #4c566a;
-    --accent: #5e81ac;
+    --accent: #5D78FF;
 }
 
 .background {
@@ -36,7 +36,7 @@ html,
 body {
     width: 100%;
     height: 100%;
-    background: rgb(21, 16, 25);
+    background: #0F111D;
     font-family: "Hack", monospace;
     height: 100%;
     overflow: hidden;
@@ -104,7 +104,7 @@ form input[type="text"] {
     padding: 10px;
     border: 2px solid var(--bglight);
 
-    background: var(--bgdark);
+    background: #181B2E;
     color: var(--fglight);
 
     font-family: 'Hack', 'Hack';
@@ -186,7 +186,7 @@ main h1 {
 
 main nav {
     padding: 5px;
-    background: var(--bgdark)
+    background: #181B2E;
 }
 
 main nav a {
