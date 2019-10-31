@@ -12,10 +12,21 @@ This is a revamped version of my first homepage. This new ones takes what was or
 - **[Here](https://chrome.google.com/webstore/detail/new-tab-override/fjcmlondipcnnpmbcollgifldmajfonf?hl=en-GB "Chrome Extension")** for Google Chrome (Or any Chromium based browser such as Brave,)
 - As far as I know, this extension is not available on the Safari Browser
 
+---
+Imrpoved dark mode 
+Using dracula themes
 
 ---
 
 ![](https://uppercenter.github.io/Psychic-Telegram/New-Tab-Override-Settings.png)
+
+
+---
+With Thanks To
+Daniel Williams
+uppercenter
+Jack Richards
+
 
 License
 ----
