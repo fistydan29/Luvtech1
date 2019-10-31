@@ -5,7 +5,9 @@ body {
 	height: 100vh;
 	margin: 0;
 	padding: 0;
-	overflow-x: hidden;
+    overflow-x: hidden;
+    width:100%;
+    height:100%;
 }
 
 #background-wrap {
@@ -14,7 +16,9 @@ body {
 	position: fixed;
 	right: 0;
 	top: 0;
-	z-index: -1;
+    z-index: -1;
+    width:100%;
+    height:100%;
 }
 
 /* KEYFRAMES */
