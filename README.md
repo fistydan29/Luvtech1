@@ -1,4 +1,4 @@
-# DBubbled - Version 1.0 Of My Personal Startpage
+# DBubbled - Version 1.1 Of My Personal Startpage
 
 This is a revamped version of my first homepage. This new ones takes what was originally there and gets rid of half the junk, for a more quick and fluid experience, not to mention this one works.
 
@@ -13,8 +13,7 @@ This is a revamped version of my first homepage. This new ones takes what was or
 - As far as I know, this extension is not available on the Safari Browser
 
 ---
-Imrpoved dark mode 
-Using dracula themes
+Imrpoved dark mode
 
 ---
 
