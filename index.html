@@ -135,17 +135,19 @@
   color: white;
 }
 
-<script Language="JavaScript">
-var width=678;
-var height=500;
-self.moveTo((screen.availwidth-width)/2,(screen.availheight-height)/2);
-self.resizeTo(width,height);
-</script
-
 </style>
 </head>
 <body>
-      
+    
+    <script>
+        document.getElementsByTagName("BODY")[0].onresize = function() {myFunction()};
+        
+        var x = 0;
+        function myFunction() {
+          var txt = x += 1;
+          document.getElementById("demo").innerHTML = txt;
+        }
+        </script>   
     
 
 
